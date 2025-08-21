@@ -80,7 +80,7 @@ def grade_problem(folder_path, program_path, excel_path="result.xlsx"):
     print(f"채점 완료! 결과는 {excel_path} 에 저장됨")
 
 # --- 사용자 환경에 맞게 경로 수정 ---
-folder = "C:\\Users\\DB실\\Downloads\\제14회 전국대회 비즈니스프로그래밍 문제 및 정답\\답안(1년후배포)\\답안(1년후배포)\\문제4"
-program_file = "제14회 전국대회 비즈니스프로그래밍 문제 및 정답\\4.py" # 채점할 파이썬 파일의 절대 경로
+folder = "C:\\Users\\DB실\\Downloads\\제14회 전국대회 비즈니스프로그래밍 문제 및 정답\\답안(1년후배포)\\답안(1년후배포)\\문제8"
+program_file = "제14회 전국대회 비즈니스프로그래밍 문제\\8.py"
 
 grade_problem(folder, program_file)
